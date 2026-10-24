@@ -1,0 +1,25 @@
+#include<stdio.h>
+void main()
+{
+  int n;
+printf("\nenter the marks of student");
+scanf("%d",&n);
+if(n>=90&&n<=100)
+  printf("the grade is 'o'");
+else
+  if(n>=80&&n<=89)
+    printf("the grade is A+");
+else
+    if(n>=70&&n<=79)
+      printf("the grade is A");
+else
+      if(n>=60&&n<=69)
+        printf("the grade is B");
+else 
+if (n<50)
+  printf("fail");
+else
+  printf("invalid number");
+}
+
+  
